@@ -3,5 +3,8 @@
   "package": "com.softhardcore.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": ["PlayerEntityMixin"],
-  "injectors": { "defaultRequire": 1 }
+  "injectors": { "defaultRequire": 1 },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
