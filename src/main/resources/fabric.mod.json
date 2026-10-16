@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soft_hardcore",
+  "version": "${version}",
+  "name": "Soft Hardcore",
+  "description": "Cada muerte rompe un corazon de forma permanente. Agota tus vidas y el mundo queda en estado Hardcore.",
+  "authors": ["Soft Hardcore"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.softhardcore.SoftHardcore"],
+    "client": ["com.softhardcore.SoftHardcoreClient"]
+  },
+  "mixins": ["soft_hardcore.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
