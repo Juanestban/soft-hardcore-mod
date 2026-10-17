@@ -6,10 +6,10 @@
   "description": "Cada muerte rompe un corazon de forma permanente. Agota tus vidas y el mundo queda en estado Hardcore.",
   "authors": ["juanestban"],
   "contact": {
-    "sources": "https://github.com/juanestban/soft-hardcore-mod"
+    "sources": "https://github.com/Juanestban/soft-hardcore-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/soft_hardcore/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": ["com.softhardcore.SoftHardcore"],
